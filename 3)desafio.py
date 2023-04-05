@@ -1,7 +1,7 @@
 import json
 
 # Lê o arquivo JSON com os dados de faturamento diário
-with open('faturamento.json', 'r') as file:
+with open('dados.json') as file:
     faturamento_diario = json.load(file)
 
 # Inicializa as variáveis com o primeiro valor do vetor de faturamento diário
